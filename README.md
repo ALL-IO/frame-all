@@ -72,6 +72,7 @@ Other considerations:
 ### Potential Props
 
 | Prop | Type | Description |
+| --- | --- | --- |
 | `containerStyle` | {} | |
 | `canvasStyle` | url or string? | Maybe one of `[“oil”, “wood”, “print”]` ? |
 | `canvasImage` | url | |
