@@ -7,37 +7,37 @@ Status: scoping stage
 
 Turn 2D images into framed 3D models.
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%205.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fhero.png?alt=media&token=64132770-9987-4f39-9eea-3517b6d557c2)
 
 ### Overview
 
  `frame-all`  is a React JS component for creating 3D framed models from a 2D image. Provide an input image an a volumetric 3D model of the image on a customized canvas and frame is generated.
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%203.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Foverview.png?alt=media&token=085db8f8-7cc9-428e-9cfb-6bc04c41f8c3)
 
 
 As with all projects, the complexity of this component ranges depending on the scope. For this component, the complexity comes from the handling image dimensions. Canvas ratios are traditionally: square, landscape, or portrait. However, each of these orientations can have any size length/width. 
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%202.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FframeSkew.png?alt=media&token=e3304495-cf14-448b-814f-f251fb35f143)
 
 
 # MVP - Changing materials on pre-made models
 - - - -
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%208.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fmvp.png?alt=media&token=d3bbcf49-adc1-4b9d-ad2b-bf18072b7ec9)
 
 The simplest implementation of this component is to have a collection of pre-made (static) canvases/frames to fit the most popular frame sizes and change the Normal Map of the canvas element to the input image. Image modes would need to include standards, like “contain” and “cover.”
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%206.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FimageMode.png?alt=media&token=db1dc64e-5030-4737-beac-d3f333360905)
 
 
 # v1 - Mimic framing process
 - - - -
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%207.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fv1.png?alt=media&token=5de61f16-ff49-4b10-a3c0-12ef5341f273)
 
 The dynamic sizing of artworks is precisely why real-world framers cut each frame to size. To give the most degrees of freedom, it would likely be easiest to mimic this process and “build” a frame around the imported image.
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%204.png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FframeComponents.png?alt=media&token=6f5e5012-8187-4fed-a096-49526a408416)
 
 Many of these components are basic box geometries and can be made, scaled, and resized easily. 
 
@@ -58,11 +58,11 @@ The process for this would look something like:
 
 - [`three.js`](https://threejs.org/)
 	- [Loaders](https://threejs.org/docs/#api/en/loaders/Loader)
-		- [MaterialLoader](https://threejs.org/docs/#api/en/loaders/MaterialLoader)
+		- [`MaterialLoade`](https://threejs.org/docs/#api/en/loaders/MaterialLoader)
 	- Exporters
-		- [GLTFExporter](https://threejs.org/docs/#examples/en/exporters/GLTFExporter)
-		- [PLYExporter](https://threejs.org/docs/#examples/en/exporters/PLYExporter)
-		- [ColladaExporter](https://threejs.org/docs/#examples/en/exporters/ColladaExporter)
+		- [`GLTFExporter`](https://threejs.org/docs/#examples/en/exporters/GLTFExporter)
+		- [`PLYExporter`](https://threejs.org/docs/#examples/en/exporters/PLYExporter)
+		- [`ColladaExporter`](https://threejs.org/docs/#examples/en/exporters/ColladaExporter)
 - [`react-three-fiber`](https://github.com/react-spring/react-three-fiber)
 
 Other considerations:
@@ -71,17 +71,18 @@ Other considerations:
 
 ### Potential Props
 
-* `containerStyle` - {}
-* `canvasStyle` - url or one of `[“oil”, “wood”, “print”]`
-* `canvasImage` - url 
-* `canvasTexture` - url
-* `canvasWidth` - number
-* `canvasHeight` - number
-* `matColor` - string
-* `matWidth` - number
-* `frameThickness` - number
+| Prop | Type | Description |
+| `containerStyle` | {} | |
+| `canvasStyle` | url or string? | Maybe one of `[“oil”, “wood”, “print”]` ? |
+| `canvasImage` | url | |
+| `canvasTexture` | url | |
+| `canvasWidth` | number | |
+| `canvasHeight` | number | |
+| `matColor` | string | |
+| `matWidth` | number | |
+| `frameThickness` | number | |
 
-![](%60frame-all%60%20Brief/MacBook%20Pro%20-%201%20(1).png)
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FframeProps.png?alt=media&token=983b2e41-f29d-4e01-8b72-890d3d86fffb)
 
 Total width and height of the frame is calculated based off of the canvas length, mat width, and frame width.
 
