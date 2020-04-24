@@ -3,10 +3,11 @@
 ![stage](https://img.shields.io/badge/stage-proposal-yellow)
 ![bounty](https://img.shields.io/badge/bounty-artwork-red)
 
+----
+
 # Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 ----
