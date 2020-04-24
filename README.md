@@ -1,21 +1,31 @@
 # frame-all
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![stage](https://img.shields.io/badge/stage-proposal-yellow)
 ![bounty](https://img.shields.io/badge/bounty-artwork-red)
 
-----
-
-# Contributors
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-BADGE:END --> 
-
-----
-
 Turn 2D images into framed 3D models.
+
+## Contributors ✨
+
+> Contributors will receive a print of [The Starving Artist by Sebastian Errazuriz](https://www.instagram.com/p/B_DfoRADwR-/?utm_source=ig_web_button_share_sheet).
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/fckchairs"><img src="https://avatars3.githubusercontent.com/u/1652655?v=4" width="100px;" alt=""/><br /><sub><b>fckchairs</b></sub></a><br /><a href="#example-fckchairs" title="Examples">💡</a> <a href="https://github.com/ALL-IO/frame-all/commits?author=fckchairs" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 
 ![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fhero.png?alt=media&token=64132770-9987-4f39-9eea-3517b6d557c2)
 
@@ -114,22 +124,3 @@ Total width and height of the frame is calculated based off of the canvas length
 * `onCanvasSelect`
 * `onImageChange`
 * `onResize`
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/fckchairs"><img src="https://avatars3.githubusercontent.com/u/1652655?v=4" width="100px;" alt=""/><br /><sub><b>fckchairs</b></sub></a><br /><a href="#example-fckchairs" title="Examples">💡</a> <a href="https://github.com/ALL-IO/frame-all/commits?author=fckchairs" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
