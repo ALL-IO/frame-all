@@ -1,11 +1,9 @@
 # frame-all
 Turn 2D images into framed 3D models.
 
-Status: scoping stage
+![stage](https://img.shields.io/badge/stage-proposal-yellow)
+![bounty](https://img.shields.io/badge/bounty-artwork-red)
 
-::Bounty::
-
-Turn 2D images into framed 3D models.
 
 ![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fhero.png?alt=media&token=64132770-9987-4f39-9eea-3517b6d557c2)
 
