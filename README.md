@@ -43,9 +43,11 @@ Many of these components are basic box geometries and can be made, scaled, and r
 The process for this would look something like:
 2. Apply image to the normal map of a base canvas.
 	- Oil, wood panel, paper, etc.
-3. Apply a frame style / silhouette and to match desired dimensions.
-4. Apply ornamental elements to extruded geometry
+3. Apply a frame profile / silhouette and to match desired dimensions.
+4. Apply ornamental elements / patterns to extruded geometry
 5. Apply additional frame properties (color, thickness, offset, etc.)
+
+![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FframeProfiles.png?alt=media&token=5a282cc0-9754-49dc-aad8-9e492b6d535f)
 
 
 
@@ -80,6 +82,7 @@ Other considerations:
 | `matColor` | string | |
 | `matWidth` | number | |
 | `frameThickness` | number | |
+| `frameProfile` | ?? | Could be a string, one of an array, or potentially an object or svg? |
 
 ![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2FframeProps.png?alt=media&token=983b2e41-f29d-4e01-8b72-890d3d86fffb)
 
@@ -95,7 +98,7 @@ Total width and height of the frame is calculated based off of the canvas length
 ### Potential  Events
 
 * `onExport` - (result, error)
-* `onFrameSelect`
+* `onProfileSelect`
 * `onCanvasSelect`
 * `onImageChange`
 * `onResize`
