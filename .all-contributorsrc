@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fckchairs",
+      "name": "fckchairs",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1652655?v=4",
+      "profile": "https://github.com/fckchairs",
+      "contributions": [
+        "example",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "frame-all",
+  "projectOwner": "ALL-IO",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
