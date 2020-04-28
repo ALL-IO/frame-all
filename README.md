@@ -42,7 +42,6 @@ As with all projects, the complexity of this component ranges depending on the s
 
 
 # MVP - Changing materials on pre-made models
-- - - -
 
 ![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fmvp.png?alt=media&token=d3bbcf49-adc1-4b9d-ad2b-bf18072b7ec9)
 
@@ -52,7 +51,7 @@ The simplest implementation of this component is to have a collection of pre-mad
 
 
 # v1 - Mimic framing process
-- - - -
+
 ![](https://firebasestorage.googleapis.com/v0/b/aw-publish-production.appspot.com/o/public%2Fgithub%2Fframe-all%2Fv1.png?alt=media&token=5de61f16-ff49-4b10-a3c0-12ef5341f273)
 
 The dynamic sizing of artworks is precisely why real-world framers cut each frame to size. To give the most degrees of freedom, it would likely be easiest to mimic this process and “build” a frame around the imported image.
@@ -74,7 +73,6 @@ The process for this would look something like:
 
 
 # Technical details:
-- - - -
 
 ### Dependencies
 
